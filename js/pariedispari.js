@@ -1,0 +1,1 @@
+const sceltaUser = prompt ("Scegli: Pari o Dispari?")
