@@ -6,11 +6,11 @@ for (let i = 0; i < parolaUtente.length; i++) {
 }
 
 console.log(parolaArray)
-const parolaArrayJ = parolaArray.join()
+const parolaArrayJoined = parolaArray.join()
 const parolaArrayReversed = parolaArray.reverse().join()
 console.log(parolaArrayReversed, parolaArrayJ)
 
-if (parolaArrayReversed === parolaArrayJ) {
+if (parolaArrayReversed === parolaArrayJoined) {
     alert("Figo! La parola è palindroma")
     } else {
     alert("Peccato!La parola non è palindroma")
